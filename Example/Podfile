@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NotifyButton_Example' do
+  pod 'NotifyButton', :path => '../'
+
+  target 'NotifyButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
