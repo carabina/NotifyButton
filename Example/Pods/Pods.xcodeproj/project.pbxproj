@@ -15,7 +15,7 @@
 		95E0B2EBD591C0180E5DF9AFD8CBD652 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		9FACB786DF18286BD209B1D65614FFC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		ADA53DF43DAC17843C49B3D9F7B6A71D /* Pods-NotifyButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02F1E5FEF20CC51E74AD1DEE14162123 /* Pods-NotifyButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1FF2C4A3D10F8FDD2032B2E9426E55E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00FCCDC3FF93126D064CF676A0CC323 /* ReplaceMe.swift */; };
+		EAAC05DD1DF94D1600283883 /* NotifyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAC05DC1DF94D1600283883 /* NotifyButton.swift */; };
 		FA42C4321202988BC777029D1ECF868C /* Pods-NotifyButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC969E6E338A29A1D13F042F477642DD /* Pods-NotifyButton_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +49,6 @@
 		7527D61BBA82DC9F5B34FB90F8796A58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8637E92E8860BA89A33E3EF6C80764B2 /* Pods-NotifyButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotifyButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A00FCCDC3FF93126D064CF676A0CC323 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		A50B2EA17858C8F5534BBFCA73C46BCE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC61459F3CD492E7D55929E8D47CAEA4 /* NotifyButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NotifyButton-prefix.pch"; sourceTree = "<group>"; };
 		B14F56A5656C317CED85344CAB360EF7 /* NotifyButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NotifyButton.modulemap; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		CBC5B0E411E6279DF92D1F246C79049B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB534E74A16CDFF81CC290EE14177D31 /* Pods-NotifyButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotifyButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E83BC3B5CE7B3199215B4F19561719A4 /* NotifyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NotifyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAC05DC1DF94D1600283883 /* NotifyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotifyButton.swift; sourceTree = "<group>"; };
 		FC969E6E338A29A1D13F042F477642DD /* Pods-NotifyButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NotifyButton_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,7 +168,7 @@
 		BBBE6464EC67F853D7074B292C9B3600 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A00FCCDC3FF93126D064CF676A0CC323 /* ReplaceMe.swift */,
+				EAAC05DC1DF94D1600283883 /* NotifyButton.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -353,8 +353,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAAC05DD1DF94D1600283883 /* NotifyButton.swift in Sources */,
 				5A62DD3BD347BB2EC0AEA4C6149176B3 /* NotifyButton-dummy.m in Sources */,
-				E1FF2C4A3D10F8FDD2032B2E9426E55E /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +382,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4F1A8B763E0EA6F1ABDAE5A0FF9BC474 /* NotifyButton.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -524,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4F1A8B763E0EA6F1ABDAE5A0FF9BC474 /* NotifyButton.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
