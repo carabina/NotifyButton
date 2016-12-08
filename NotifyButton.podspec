@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NotifyButton'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NotifyButton.'
+  s.summary          = 'A Subclass on UIButton to notify a user via email.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+"This Cocoapod provides a button of its type the ability to notify a user via email inputted"
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/NotifyButton'
+  s.homepage         = 'https://github.com/TonyMJoseph1/NotifyButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Tony M Joseph' => 'tonyj@qburst.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/NotifyButton.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/TonyMJoseph1/NotifyButton.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

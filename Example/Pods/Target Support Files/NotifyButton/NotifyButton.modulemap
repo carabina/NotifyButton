@@ -1,0 +1,6 @@
+framework module NotifyButton {
+  umbrella header "NotifyButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

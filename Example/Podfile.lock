@@ -1,0 +1,16 @@
+PODS:
+  - NotifyButton (0.1.0)
+
+DEPENDENCIES:
+  - NotifyButton (from `../`)
+
+EXTERNAL SOURCES:
+  NotifyButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NotifyButton: 6f34e6e0ae6bda7e46b40ac4cde9f4524ab4e1f2
+
+PODFILE CHECKSUM: b631fe71086e93cc5cd525c65fe264e9f7516a47
+
+COCOAPODS: 1.1.1

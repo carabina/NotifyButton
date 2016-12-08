@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08E9A4FEFC643A63BBC7C5FA28E58905 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4E86F14EE8054DF7612A3F56444A94C2 /* Pods-NotifyButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C117E8072A1274E8B81DB08DADCA7946 /* Pods-NotifyButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A62DD3BD347BB2EC0AEA4C6149176B3 /* NotifyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47ADB4DEC7AD59E1AFCA3267CD451B28 /* NotifyButton-dummy.m */; };
+		6810C339AC4F9EE846DC1E352A7ED9A1 /* NotifyButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D906B0EAD8A3C2AE67E6E0C1A170B0 /* NotifyButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F9AB2DC8D98DF74E845F112CCDE1934 /* Pods-NotifyButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C14AB4FAF19E4BDEEF8DC4A1023995 /* Pods-NotifyButton_Tests-dummy.m */; };
+		95E0B2EBD591C0180E5DF9AFD8CBD652 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9FACB786DF18286BD209B1D65614FFC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		ADA53DF43DAC17843C49B3D9F7B6A71D /* Pods-NotifyButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02F1E5FEF20CC51E74AD1DEE14162123 /* Pods-NotifyButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1FF2C4A3D10F8FDD2032B2E9426E55E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00FCCDC3FF93126D064CF676A0CC323 /* ReplaceMe.swift */; };
+		FA42C4321202988BC777029D1ECF868C /* Pods-NotifyButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC969E6E338A29A1D13F042F477642DD /* Pods-NotifyButton_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E8CE7D391CB006C94162389A83857FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B613E749F84CFA5F94668AEDC0877C0;
+			remoteInfo = NotifyButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F1E5FEF20CC51E74AD1DEE14162123 /* Pods-NotifyButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NotifyButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		06CB9E40C9224C17F48F83382E5EF5A4 /* Pods_NotifyButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotifyButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B28FA853C5C8E2164E58E94EF2112FB /* Pods-NotifyButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotifyButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		14A1F12F5A6877AAD61A94AEC3D5A927 /* Pods-NotifyButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotifyButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A86C4C0AEE656E4E0D0A8FB2E0DF72E /* Pods-NotifyButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotifyButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		1B7AA289747EDEA27E8893CF55271014 /* Pods-NotifyButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NotifyButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		25F44F7596923AE517527DE919673161 /* Pods-NotifyButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NotifyButton_Tests.modulemap"; sourceTree = "<group>"; };
+		28A97F19539C68083BF1348FA506E2D8 /* Pods_NotifyButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotifyButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34AB0A7FCE44BF7B5A4B2FBDE577DE51 /* Pods-NotifyButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotifyButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		37B6F4BB16A28A9CDA1A375F8833E6D7 /* Pods-NotifyButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotifyButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		40E527440E544B1924867C42AAED4111 /* Pods-NotifyButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotifyButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		43A9F5CA5B3F8E13F892A84B1BB5287D /* Pods-NotifyButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotifyButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		47ADB4DEC7AD59E1AFCA3267CD451B28 /* NotifyButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NotifyButton-dummy.m"; sourceTree = "<group>"; };
+		4F1A8B763E0EA6F1ABDAE5A0FF9BC474 /* NotifyButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NotifyButton.xcconfig; sourceTree = "<group>"; };
+		527F32842269D9DB4A18707B07E0F11D /* Pods-NotifyButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotifyButton_Example-resources.sh"; sourceTree = "<group>"; };
+		6F9D1A01452CFD7FAC64B6F7962465F3 /* Pods-NotifyButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NotifyButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7527D61BBA82DC9F5B34FB90F8796A58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8637E92E8860BA89A33E3EF6C80764B2 /* Pods-NotifyButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotifyButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A00FCCDC3FF93126D064CF676A0CC323 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		A50B2EA17858C8F5534BBFCA73C46BCE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC61459F3CD492E7D55929E8D47CAEA4 /* NotifyButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NotifyButton-prefix.pch"; sourceTree = "<group>"; };
+		B14F56A5656C317CED85344CAB360EF7 /* NotifyButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NotifyButton.modulemap; sourceTree = "<group>"; };
+		B9C14AB4FAF19E4BDEEF8DC4A1023995 /* Pods-NotifyButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NotifyButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		C117E8072A1274E8B81DB08DADCA7946 /* Pods-NotifyButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NotifyButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C44688C311995C105AB07B25FE732378 /* Pods-NotifyButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NotifyButton_Example.modulemap"; sourceTree = "<group>"; };
+		C9D906B0EAD8A3C2AE67E6E0C1A170B0 /* NotifyButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NotifyButton-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBC5B0E411E6279DF92D1F246C79049B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB534E74A16CDFF81CC290EE14177D31 /* Pods-NotifyButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotifyButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E83BC3B5CE7B3199215B4F19561719A4 /* NotifyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NotifyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC969E6E338A29A1D13F042F477642DD /* Pods-NotifyButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NotifyButton_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6DF59C00918A89234B140294F6B532A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FACB786DF18286BD209B1D65614FFC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F692242857E1089D976ED2B5CB4B2069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E9A4FEFC643A63BBC7C5FA28E58905 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE83C799643A54D8C73F87C16E9CD8FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E0B2EBD591C0180E5DF9AFD8CBD652 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0133E290B49E26E47B0794A2943933C6 /* Pods-NotifyButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7527D61BBA82DC9F5B34FB90F8796A58 /* Info.plist */,
+				C44688C311995C105AB07B25FE732378 /* Pods-NotifyButton_Example.modulemap */,
+				6F9D1A01452CFD7FAC64B6F7962465F3 /* Pods-NotifyButton_Example-acknowledgements.markdown */,
+				8637E92E8860BA89A33E3EF6C80764B2 /* Pods-NotifyButton_Example-acknowledgements.plist */,
+				FC969E6E338A29A1D13F042F477642DD /* Pods-NotifyButton_Example-dummy.m */,
+				34AB0A7FCE44BF7B5A4B2FBDE577DE51 /* Pods-NotifyButton_Example-frameworks.sh */,
+				527F32842269D9DB4A18707B07E0F11D /* Pods-NotifyButton_Example-resources.sh */,
+				02F1E5FEF20CC51E74AD1DEE14162123 /* Pods-NotifyButton_Example-umbrella.h */,
+				0B28FA853C5C8E2164E58E94EF2112FB /* Pods-NotifyButton_Example.debug.xcconfig */,
+				DB534E74A16CDFF81CC290EE14177D31 /* Pods-NotifyButton_Example.release.xcconfig */,
+			);
+			name = "Pods-NotifyButton_Example";
+			path = "Target Support Files/Pods-NotifyButton_Example";
+			sourceTree = "<group>";
+		};
+		2C2A4226044527FBB4197E8FF013EDB1 /* Pods-NotifyButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A50B2EA17858C8F5534BBFCA73C46BCE /* Info.plist */,
+				25F44F7596923AE517527DE919673161 /* Pods-NotifyButton_Tests.modulemap */,
+				1B7AA289747EDEA27E8893CF55271014 /* Pods-NotifyButton_Tests-acknowledgements.markdown */,
+				14A1F12F5A6877AAD61A94AEC3D5A927 /* Pods-NotifyButton_Tests-acknowledgements.plist */,
+				B9C14AB4FAF19E4BDEEF8DC4A1023995 /* Pods-NotifyButton_Tests-dummy.m */,
+				37B6F4BB16A28A9CDA1A375F8833E6D7 /* Pods-NotifyButton_Tests-frameworks.sh */,
+				1A86C4C0AEE656E4E0D0A8FB2E0DF72E /* Pods-NotifyButton_Tests-resources.sh */,
+				C117E8072A1274E8B81DB08DADCA7946 /* Pods-NotifyButton_Tests-umbrella.h */,
+				43A9F5CA5B3F8E13F892A84B1BB5287D /* Pods-NotifyButton_Tests.debug.xcconfig */,
+				40E527440E544B1924867C42AAED4111 /* Pods-NotifyButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-NotifyButton_Tests";
+			path = "Target Support Files/Pods-NotifyButton_Tests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				851A4A38312D296B6E0228938649DE67 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				85C72D65203C5318839922E03C81B726 /* Products */,
+				D2EC38119642C13D678A2598BA753C08 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		851A4A38312D296B6E0228938649DE67 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D82C10374213FA0B872D15DAF99F478E /* NotifyButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		85C72D65203C5318839922E03C81B726 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E83BC3B5CE7B3199215B4F19561719A4 /* NotifyButton.framework */,
+				06CB9E40C9224C17F48F83382E5EF5A4 /* Pods_NotifyButton_Example.framework */,
+				28A97F19539C68083BF1348FA506E2D8 /* Pods_NotifyButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBBE6464EC67F853D7074B292C9B3600 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A00FCCDC3FF93126D064CF676A0CC323 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2EC38119642C13D678A2598BA753C08 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0133E290B49E26E47B0794A2943933C6 /* Pods-NotifyButton_Example */,
+				2C2A4226044527FBB4197E8FF013EDB1 /* Pods-NotifyButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D82C10374213FA0B872D15DAF99F478E /* NotifyButton */ = {
+			isa = PBXGroup;
+			children = (
+				DFF5954C5460264AC14D9BD26000BBFE /* NotifyButton */,
+				EA618B1241728546674A52DE7E1924F5 /* Support Files */,
+			);
+			name = NotifyButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DFF5954C5460264AC14D9BD26000BBFE /* NotifyButton */ = {
+			isa = PBXGroup;
+			children = (
+				BBBE6464EC67F853D7074B292C9B3600 /* Classes */,
+			);
+			path = NotifyButton;
+			sourceTree = "<group>";
+		};
+		EA618B1241728546674A52DE7E1924F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBC5B0E411E6279DF92D1F246C79049B /* Info.plist */,
+				B14F56A5656C317CED85344CAB360EF7 /* NotifyButton.modulemap */,
+				4F1A8B763E0EA6F1ABDAE5A0FF9BC474 /* NotifyButton.xcconfig */,
+				47ADB4DEC7AD59E1AFCA3267CD451B28 /* NotifyButton-dummy.m */,
+				AC61459F3CD492E7D55929E8D47CAEA4 /* NotifyButton-prefix.pch */,
+				C9D906B0EAD8A3C2AE67E6E0C1A170B0 /* NotifyButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NotifyButton";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		089138E0675BB704DC42E5BC4ABF38D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E86F14EE8054DF7612A3F56444A94C2 /* Pods-NotifyButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55EC2DEA90298309EDA1C3563FC32DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA53DF43DAC17843C49B3D9F7B6A71D /* Pods-NotifyButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6695B4EBC9E97A61B842B96BD73DE80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6810C339AC4F9EE846DC1E352A7ED9A1 /* NotifyButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6053DEA975F034EF7B1310E0846B7F67 /* Pods-NotifyButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B70B3A7C8D9E2CF36FB2A0B4DAAEA871 /* Build configuration list for PBXNativeTarget "Pods-NotifyButton_Example" */;
+			buildPhases = (
+				D78F4ECD2F1AA275ABA0BFECB24F624F /* Sources */,
+				F692242857E1089D976ED2B5CB4B2069 /* Frameworks */,
+				C55EC2DEA90298309EDA1C3563FC32DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B1D7CB770FB8AC1345E5DADDE6D2BB2 /* PBXTargetDependency */,
+			);
+			name = "Pods-NotifyButton_Example";
+			productName = "Pods-NotifyButton_Example";
+			productReference = 06CB9E40C9224C17F48F83382E5EF5A4 /* Pods_NotifyButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6726EB0A854F9D6974110BAC1264300F /* Pods-NotifyButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7660E52AE40DE79F5CFE70705CAD3242 /* Build configuration list for PBXNativeTarget "Pods-NotifyButton_Tests" */;
+			buildPhases = (
+				44436FD71BFF0C0444112D77BD050296 /* Sources */,
+				E6DF59C00918A89234B140294F6B532A /* Frameworks */,
+				089138E0675BB704DC42E5BC4ABF38D9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NotifyButton_Tests";
+			productName = "Pods-NotifyButton_Tests";
+			productReference = 28A97F19539C68083BF1348FA506E2D8 /* Pods_NotifyButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B613E749F84CFA5F94668AEDC0877C0 /* NotifyButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA49D8CD3575E695422F315430DAA263 /* Build configuration list for PBXNativeTarget "NotifyButton" */;
+			buildPhases = (
+				9DA72357B3B1DD8A7057DF85B5F8DBD7 /* Sources */,
+				FE83C799643A54D8C73F87C16E9CD8FC /* Frameworks */,
+				E6695B4EBC9E97A61B842B96BD73DE80 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotifyButton;
+			productName = NotifyButton;
+			productReference = E83BC3B5CE7B3199215B4F19561719A4 /* NotifyButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					6053DEA975F034EF7B1310E0846B7F67 = {
+						LastSwiftMigration = 0810;
+					};
+					7B613E749F84CFA5F94668AEDC0877C0 = {
+						LastSwiftMigration = 0810;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 85C72D65203C5318839922E03C81B726 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B613E749F84CFA5F94668AEDC0877C0 /* NotifyButton */,
+				6053DEA975F034EF7B1310E0846B7F67 /* Pods-NotifyButton_Example */,
+				6726EB0A854F9D6974110BAC1264300F /* Pods-NotifyButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44436FD71BFF0C0444112D77BD050296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9AB2DC8D98DF74E845F112CCDE1934 /* Pods-NotifyButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA72357B3B1DD8A7057DF85B5F8DBD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A62DD3BD347BB2EC0AEA4C6149176B3 /* NotifyButton-dummy.m in Sources */,
+				E1FF2C4A3D10F8FDD2032B2E9426E55E /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78F4ECD2F1AA275ABA0BFECB24F624F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA42C4321202988BC777029D1ECF868C /* Pods-NotifyButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B1D7CB770FB8AC1345E5DADDE6D2BB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NotifyButton;
+			target = 7B613E749F84CFA5F94668AEDC0877C0 /* NotifyButton */;
+			targetProxy = 3E8CE7D391CB006C94162389A83857FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		401407392CEB09C5CD6E5CDF782F3C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1A8B763E0EA6F1ABDAE5A0FF9BC474 /* NotifyButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NotifyButton/NotifyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NotifyButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NotifyButton/NotifyButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NotifyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B1B67796F450F8A7FC81C8FB2565183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40E527440E544B1924867C42AAED4111 /* Pods-NotifyButton_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NotifyButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotifyButton_Tests/Pods-NotifyButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NotifyButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C88DEFA80A8CC70BBA65FF210B908F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43A9F5CA5B3F8E13F892A84B1BB5287D /* Pods-NotifyButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NotifyButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotifyButton_Tests/Pods-NotifyButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NotifyButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9463CEAAA0342B9C605556519CB1F13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1A8B763E0EA6F1ABDAE5A0FF9BC474 /* NotifyButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NotifyButton/NotifyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NotifyButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NotifyButton/NotifyButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NotifyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D2B578C69D12B601E9EA4467367CAE36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB534E74A16CDFF81CC290EE14177D31 /* Pods-NotifyButton_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NotifyButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotifyButton_Example/Pods-NotifyButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NotifyButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DECD3AA49BC19E9B8DBBBA396D456F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B28FA853C5C8E2164E58E94EF2112FB /* Pods-NotifyButton_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NotifyButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotifyButton_Example/Pods-NotifyButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NotifyButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7660E52AE40DE79F5CFE70705CAD3242 /* Build configuration list for PBXNativeTarget "Pods-NotifyButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C88DEFA80A8CC70BBA65FF210B908F1 /* Debug */,
+				8B1B67796F450F8A7FC81C8FB2565183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B70B3A7C8D9E2CF36FB2A0B4DAAEA871 /* Build configuration list for PBXNativeTarget "Pods-NotifyButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECD3AA49BC19E9B8DBBBA396D456F27 /* Debug */,
+				D2B578C69D12B601E9EA4467367CAE36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA49D8CD3575E695422F315430DAA263 /* Build configuration list for PBXNativeTarget "NotifyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9463CEAAA0342B9C605556519CB1F13E /* Debug */,
+				401407392CEB09C5CD6E5CDF782F3C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
